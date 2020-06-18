@@ -54,6 +54,16 @@ export default {
             route: '/admin/estimates'
           },
           {
+            title: 'Booking',
+            icon: 'file-alt',
+            route: '/admin/bookings'
+          },
+          {
+            title: 'Ticket',
+            icon: 'file-alt',
+            route: '/admin/Ticket'
+          },
+          {
             title: 'navigation.invoices',
             icon: 'file-alt',
             route: '/admin/invoices'

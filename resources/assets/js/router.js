@@ -43,6 +43,13 @@ import InvoiceIndex from './views/invoices/Index.vue'
 import InvoiceCreate from './views/invoices/Create.vue'
 import InvoiceView from './views/invoices/View.vue'
 
+
+// Bookings 
+import BookingIndex from './views/bookings/Index.vue'
+import BookingCreate from './views/bookings/Create.vue'
+import BookingView from './views/bookings/View.vue'
+
+
 // Payments
 import PaymentsIndex from './views/payments/Index.vue'
 import PaymentCreate from './views/payments/Create.vue'
@@ -236,6 +243,28 @@ const routes = [
         path: 'invoices/:id/edit',
         name: 'invoices.edit',
         component: InvoiceCreate
+      },
+
+      // Bookings
+      {
+        path: 'bookings',
+        name: 'bookings.index',
+        component: BookingIndex
+      },
+      {
+        path: 'bookings/create',
+        name: 'bookings.create',
+        component: BookingCreate
+      },
+      {
+        path: 'bookings/:id/view',
+        name: 'bookings.view',
+        component: BookingView
+      },
+      {
+        path: 'bookings/:id/edit',
+        name: 'bookings.edit',
+        component: BookingCreate
       },
 
       // Payments

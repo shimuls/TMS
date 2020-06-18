@@ -233,7 +233,9 @@ Route::group(['middleware' => 'api'], function () {
         ]);
 
         Route::resource('invoices', 'InvoicesController');
-
+        
+        //Booking
+        Route::resource('bookings', 'BookingsController');
 
         // Tax Types
         //----------------------------------
